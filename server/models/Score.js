@@ -1,4 +1,3 @@
-//scoreboard
 const { Schema, model } = require('mongoose');
 
 const scoreSchema = new Schema(
