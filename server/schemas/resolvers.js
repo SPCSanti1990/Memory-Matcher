@@ -1,5 +1,5 @@
 const { User, Score } = require('../models');
-const { AuthenticationError } = require('@apollo/server');
+const { AuthenticationError } = require('apollo-server-express');
 
 const resolvers = {
     Query: {
