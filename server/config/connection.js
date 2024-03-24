@@ -13,4 +13,4 @@ mongoose.connect(
 );
 
 // Export the connection
-module.export = mongoose.connection;
+module.exports = mongoose.connection;
