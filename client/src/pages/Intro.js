@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Typography, Row, Col, Button, Modal, Tabs } from "antd";
 import SignUpForm from "../components/SignupForm";
-import LoginForm from "../components/LoginForm";
+import LoginForm from "../components/loginForm";
 import Auth from "../utils/auth";
 import { Link } from "react-router-dom";
 import logo from "../assets/images/logo.png";
