@@ -43,7 +43,7 @@ module.exports = {
     res.json({ token, user });
   },
   // save a book to a user's `savedBooks` 
-  // user comes from `req.user` created in the auth middleware function
+
   async saveBook({ user, body }, res) {
     console.log(user);
     try {

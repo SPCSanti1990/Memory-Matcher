@@ -16,16 +16,13 @@ const GameLogic = () => {
   }, []);
 
   const fetchHighScore = () => {
-    
+
     const highScoreFromAPI = 10; 
     setHighScore(highScoreFromAPI);
   };
 
   const saveHighScore = () => {
-    
-    const highScoreToSave = score;
-    console.log("Saving high score:", highScoreToSave);
-    
+
   };
 
   const initGame = () => {
