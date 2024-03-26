@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Typography, Row, Col, Button, Modal, Tabs } from "antd";
 import SignUpForm from "../components/SignupForm";
-import LoginForm from "../components/loginForm";
+import LoginForm from "../components/LoginForm";
 import Auth from "../utils/auth";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/logo.png";
+//import logo from "../assets/images/logo.png";
 const { Title } = Typography;
 const { TabPane } = Tabs;
 
@@ -35,7 +35,7 @@ const Intro = () => {
           <Title level={1} className="pageheader" style={{ color: "#fff", textAlign: "center", width: "auto", marginLeft:'10px', marginRight: '10px', marginTop:'10px' }}>
             {Auth.loggedIn() ? "Now that you have an account," : "Hey there, welcome to Recall Rumble!"}
           </Title>
-          <img src={logo} alt="Logo" className="logo" style={{ width: "45%", maxWidth: "300px", marginTop:'10px', marginBottom:'20px', marginLeft: 'auto', marginRight: 'auto' }} />
+          {/*<img src={logo} alt="Logo" className="logo" style={{ width: "45%", maxWidth: "300px", marginTop:'10px', marginBottom:'20px', marginLeft: 'auto', marginRight: 'auto' }} />*/}
           <Title level={1} className="pageheader" style={{ color: "#fff", textAlign: "center", width: "auto", marginLeft:'15px', marginRight: '15px' }}>
             {Auth.loggedIn() ? "Press the button below to play!" : "Click the button below to login or to make an account!"}
           </Title>
