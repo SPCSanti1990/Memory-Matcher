@@ -113,7 +113,7 @@ const AppNavigationBar = () => {
               color: "white",
             }}
           >
-            Recall Rumble
+            Memory Matcher
           </span>
           <Menu.Item
             key="login-signup"

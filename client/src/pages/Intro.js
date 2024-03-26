@@ -33,7 +33,7 @@ const Intro = () => {
       <Row justify="center" className="bg" align="middle" style={{ minHeight: windowHeight, color: "#fff", textAlign: "center" }}>
         <Col>
           <Title level={1} className="pageheader" style={{ color: "#fff", textAlign: "center", width: "auto", marginLeft:'10px', marginRight: '10px', marginTop:'10px' }}>
-            {Auth.loggedIn() ? "Now that you have an account," : "Hey there, welcome to Recall Rumble!"}
+            {Auth.loggedIn() ? "Now that you have an account," : "Hey there, welcome to Memory Matcher!"}
           </Title>
           <img src={logo} alt="Logo" className="logo" style={{ width: "45%", maxWidth: "300px", marginTop:'10px', marginBottom:'20px', marginLeft: 'auto', marginRight: 'auto' }} />
           <Title level={1} className="pageheader" style={{ color: "#fff", textAlign: "center", width: "auto", marginLeft:'15px', marginRight: '15px' }}>
@@ -42,7 +42,7 @@ const Intro = () => {
           {Auth.loggedIn() ? (
             <Link to="/Game">
               <Button className="pageheader" size="large" type="primary" style={{ justifyContent: "center", marginTop: "1rem" }}>
-                Recall Rumble Time!
+                Memory Matcher
               </Button>
             </Link>
           ) : (
