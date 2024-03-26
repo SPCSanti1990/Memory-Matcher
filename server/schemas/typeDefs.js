@@ -1,4 +1,4 @@
-const { gql } = require('apollo-server-express');
+
 
 // template typeDefs, subject to change
 const typeDefs = `
