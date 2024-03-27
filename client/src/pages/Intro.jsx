@@ -42,7 +42,7 @@ const Intro = () => {
           {Auth.loggedIn() ? (
             <Link to="/Game">
               <Button className="pageheader" size="large" type="primary" style={{ justifyContent: "center", marginTop: "1rem" }}>
-                Recall Rumble Time!
+                Memory Matcher!
               </Button>
             </Link>
           ) : (
